@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  srv-postgres-dev:
+    container_name: srv-postgres-dev
+    image: postgres:latest
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=123456
+    ports:
+      - '5432:5432'
+    
+  srv-redis-dev:
+    container_name: srv-redis-dev
+    image: redis:latest
+    restart: always
+    ports:
+        - '6000:6379'

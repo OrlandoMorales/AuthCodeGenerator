@@ -1,0 +1,4 @@
+
+ 1. enable-migrations // if required 
+ 2. add-migration initial
+ 3. update-database

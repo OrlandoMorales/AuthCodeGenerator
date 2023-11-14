@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArivalBank.2fa.WebApi", "ArivalBank.2fa.WebApi\ArivalBank.2fa.WebApi.csproj", "{393DF89A-E463-4100-B201-AA0E97E52029}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArivalBank.2fa.Test", "ArivalBank.2fa.Test\ArivalBank.2fa.Test.csproj", "{604B2A87-DA91-4F7D-B549-43F2A21802BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArivalBank.2fa.Domain", "ArivalBank.2fa.Domain\ArivalBank.2fa.Domain.csproj", "{4E5F4430-327A-4AAD-9D33-781C71485AB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArivalBank.2fa.Infrastructure", "ArivalBank.2fa.Infrastructure\ArivalBank.2fa.Infrastructure.csproj", "{630413BD-04B1-47E2-904E-154459264778}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArivalBank.2fa.Application", "ArivalBank.2fa.Application\ArivalBank.2fa.Application.csproj", "{901BBA5C-BC38-472F-9284-37AFCECF1F82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deploy", "Deploy", "{5A7A1603-1881-4861-9405-B5036F0AF6B3}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		EntityFramework.txt = EntityFramework.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{393DF89A-E463-4100-B201-AA0E97E52029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393DF89A-E463-4100-B201-AA0E97E52029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393DF89A-E463-4100-B201-AA0E97E52029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393DF89A-E463-4100-B201-AA0E97E52029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{604B2A87-DA91-4F7D-B549-43F2A21802BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{604B2A87-DA91-4F7D-B549-43F2A21802BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{604B2A87-DA91-4F7D-B549-43F2A21802BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{604B2A87-DA91-4F7D-B549-43F2A21802BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5F4430-327A-4AAD-9D33-781C71485AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5F4430-327A-4AAD-9D33-781C71485AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5F4430-327A-4AAD-9D33-781C71485AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5F4430-327A-4AAD-9D33-781C71485AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{630413BD-04B1-47E2-904E-154459264778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{630413BD-04B1-47E2-904E-154459264778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{630413BD-04B1-47E2-904E-154459264778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{630413BD-04B1-47E2-904E-154459264778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{901BBA5C-BC38-472F-9284-37AFCECF1F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{901BBA5C-BC38-472F-9284-37AFCECF1F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{901BBA5C-BC38-472F-9284-37AFCECF1F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{901BBA5C-BC38-472F-9284-37AFCECF1F82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC9505ED-A27C-4AFB-BCFF-708C3140E2AF}
+	EndGlobalSection
+EndGlobal
